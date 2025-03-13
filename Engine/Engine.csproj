@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Locations\Castle.png" />
+    <None Remove="Images\Locations\Inn.png" />
+    <None Remove="Images\Locations\MagesTower.png" />
+    <None Remove="Images\Locations\MonstersLair.png" />
+    <None Remove="Images\Locations\Smithy.png" />
+    <None Remove="Images\Monsters\Boss.png" />
+    <None Remove="Images\Monsters\Ghost.png" />
+    <None Remove="Images\Monsters\Golem.png" />
+    <None Remove="Images\Monsters\Werewolf.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\Castle.png" />
+    <Resource Include="Images\Locations\Inn.png" />
+    <Resource Include="Images\Locations\MagesTower.png" />
+    <Resource Include="Images\Locations\MonstersLair.png" />
+    <Resource Include="Images\Locations\Smithy.png" />
+    <Resource Include="Images\Monsters\Boss.png" />
+    <Resource Include="Images\Monsters\Ghost.png" />
+    <Resource Include="Images\Monsters\Golem.png" />
+    <Resource Include="Images\Monsters\Werewolf.png" />
+  </ItemGroup>
+
+</Project>
